@@ -11,6 +11,6 @@
   + Testnet
     - =truffle migrate --reset --network bscTestnet=
 - Verify Contract:
-  a. Create API on =bscscan=
-  b. Add Api to "=truffle-config.js=" on api_key {bscscan: "=API here= "}
-  c. *npm run verify*
+  1. Create API on =bscscan=
+  2. Add Api to "=truffle-config.js=" on api_key {bscscan: "=API here= "}
+  3. *npm run verify*
