@@ -1,0 +1,16 @@
+#+TITLE: SAFEMOON FORK TOKEN
+#+AUTHOR: DANG QUANG VU
+
+- npm install
+- Customize Token in file: =SafemoonFork.sol=
+  How to Customize it? ... Watch Video:
+  ....
+- Deploy Contract:
+  + Mainnet
+    - =truffle migrate --reset --network bsc=
+  + Testnet
+    - =truffle migrate --reset --network bscTestnet=
+- Verify Contract:
+  a. Create API on =bscscan=
+  b. Add Api to "=truffle-config.js=" on api_key {bscscan: "=API here= "}
+  c. *npm run verify*
