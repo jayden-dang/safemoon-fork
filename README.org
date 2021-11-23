@@ -13,4 +13,4 @@
 - Verify Contract:
   + Create API on =bscscan=
   + Add Api to "=truffle-config.js=" on api_key {bscscan: "=API here= "}
-  + *npm run verify*
+  + =npm run verify=
